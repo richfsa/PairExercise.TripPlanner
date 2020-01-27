@@ -8,6 +8,29 @@ body {
   background-color: #C1B5AD;
 }
 
+#activity-container {
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  position: fixed;
+  right: 0px;
+  height: 100vh;
+  width: 300px;
+  z-index: 1;
+}
+
+#activity {
+  background-color: green;
+  height: 50%;
+  width: 100%;
+}
+
+#itinerary {
+  background-color: blue;
+  height: 50%;
+  width: 100%;
+}
+
 #map {
   height: 100vh;
   width: 100vw;
